@@ -6,7 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  
+  <style>
+    .dropdown{
+   padding:10px;
+   border: 1px solid black;
+ }
+ </style>
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"   
@@ -170,6 +175,17 @@ breakpoints and supports only 6 responsive breakpoints in a row.
       </div><br>
       </div>
 
-      
+      <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenubar" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown button
+        </a>
+    
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenubar">
+          <li><a class="dropdown-item" href="basic.html">Basic link</a></li>
+          <li><a class="dropdown-item" href="advanced.html">Advanced link</a></li>
+        </ul>
+        <caption>DROP DOWN BAR</caption><br>
+      </div>
+     
 </body>
 </html>
